@@ -1,0 +1,23 @@
+{
+  "name": "ej-todolist",
+  "version": "1.0.0",
+  "description": "EJERCICIO TO DO LIST (21-11-2022)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcfdez/EJ-ToDoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alcfdez/EJ-ToDoList/issues"
+  },
+  "homepage": "https://github.com/alcfdez/EJ-ToDoList#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}
