@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./sass/styles.scss">
+    <link rel="stylesheet" href="./sass/styles.css">
     <title>TO DO LIST- CRUD</title>
 </head>
 <body>
@@ -13,8 +13,8 @@
         <article>
             <p>Edit TODO</p>
             <form class="crud__form">
-                <input type="text" placeholder="escribe" required >
-                <input type="submit" value="Modify">
+                <input id =" text" class="text" type="text" placeholder="escribe" required >
+                <input id="btnAdd" class= "add" type="submit" value="Modify">
             </form>
         </article>
         <br>
@@ -28,10 +28,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td></td>
+                        <td id="userText"></td>
                         <td>
                             <button class="edit"><img src="./assets/pencil icon.png" alt="pencil edit"></button>
-                            <button class="delete" ><img src="./assets/trash icon.png" alt="delete"</button>
+                            <button class="delete" ><img src="./assets/trash icon.png" alt="delete"></button>
                         </td>
                     </tr>
                 </tbody>
